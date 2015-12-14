@@ -1,0 +1,189 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>sefl_lu_gen_2014_FGDL</title>
+        <geoform>vector digital data</geoform>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset contains generalized land use derived from parcel specific land use for Florida Department of Transportation (FDOT) District 6. This data was created by the Florida Geographic Data Library (FGDL). Appended to this FGDL district 6 data were the parcels from FGDL district 4 generalized land use data for Broward and Palm Beach counties. FGDL's 15 general land use classes were further colllapsed into 9 classes. Features were dissolved on the orginal FGDL general land use class to speed drawing time.</abstract>
+      <purpose>The data serves as one of many base information layers for planning coastal resilience projects on coastalresilience.org.</purpose>
+    </descript>
+    <spdom>
+      <bounding>
+        <westbc>-81.964978</westbc>
+        <eastbc>-80.030838</eastbc>
+        <northbc>26.974407</northbc>
+        <southbc>24.521033</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Parcels</themekey>
+        <themekey>FDOT</themekey>
+        <themekey>District</themekey>
+        <themekey>Land</themekey>
+        <themekey>Use</themekey>
+        <themekey>Generalized</themekey>
+        <themekey>Land use</themekey>
+        <themekey>planningCadastre</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data.</useconst>
+    <datacred>Florida Department of Revenue, County Property Appraisers, Panda, and GeoPlan Center</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+  </idinfo>
+  <dataqual>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>d6_lu_gen2014.shp</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>d6_lu_gen2014.shp</srccitea>
+        <srccontr>FGDL generalized land use derived from parcel data for FDOT district 6</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <title>d4_lu_gen2014.shp</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srccitea>d4_lu_gen2014.shp</srccitea>
+        <srccontr>FGDL generalized land use derived from parcel data for FDOT district 4</srccontr>
+      </srcinfo>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>17</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+          <mapprojp>
+            <otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+          </mapprojp>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>D6_LU_GEN_2014</enttypl>
+        <enttypd>D6_LU_GEN_2014.DBF</enttypd>
+        <enttypds>FDOR</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DESCRIPT</attrlabl>
+        <attrdef>FGDL added field derived from generalized parcels specific land use class description.</attrdef>
+        <attrdefs>GeoPlan</attrdefs>
+      </attr>
+      <attr>
+        <attrlabl>FIRST_Aggr</attrlabl>
+        <attrdef>Aggregated FGDL general land use classes found in attribute DESCRIPT</attrdef>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Leng</attrlabl>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>LANDUSE15_   DESCRIPT
+0            PARCELS WITH NO VALUES
+1            ACREAGE NOT ZONED FOR AGRICULTURE
+2            AGRICULTURAL
+3            CENTRALLY ASSESSED
+4            INDUSTRIAL
+5            INSTITUTIONAL
+6            MINING
+7            OTHER
+8            PUBLIC/SEMI-PUBLIC
+9            ROW
+10           RECREATION
+11           RESIDENTIAL
+12           RETAIL/OFFICE
+13           VACANT NONRESIDENTIAL
+14           WATER
+15           VACANT RESIDENTIAL
+16           NO DATA AVAILABLE</eaover>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distliab>The Nature Conservancy makes no warranty as to the currency, completeness, accuracy or utility of any specific data. This disclaimer applies both to individual use of the data and aggregate use with other data. </distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDE Feature Class</formname>
+          <transize>25.723</transize>
+        </digtinfo>
+      </digform>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150320</metd>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

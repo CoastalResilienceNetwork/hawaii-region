@@ -1,0 +1,31 @@
+﻿<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <title>Sea Level Affecting Marshes Model (SLAMM) for the Florida Keys using Southeast Florida Regional Climate Compact scenarios</title>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The Sea Level Affecting Marshes Model (SLAMM) is an advanced geospatial tool commonly utilized for assessments of future habitat change due to sea level rise (Warren Pinnacle, Inc. 2014). The files in this geodatabase were developed for the Florida Keys island chain portion of Monroe County, Florida using SLAMM version 6.2 with the "minimum" and "maximum" sea level rise scenarios defined in 2011 by the Southeast Florida Regional Climate Compact (http://www.broward.org/NaturalResources/ClimateChange/Documents/SE%20FL%20Sea%20Level%20Rise%20White%20Paper%20April%202011%20ADA%20FINAL.pdf). These model runs build upon and utilize base data inputs for SLAMM originally developed by the Florida Fish and Wildlife Conservation Commission (Glazer 2013), but differ in using SLAMM 6.2 and the Southeast Florida Regional Climate Compact (SEFRCC) sea level rise scenarios, rather than those based upon IPCC AR4 scenarios. The use of the SEFRCC sea level rise scenarios at 2030 (minimum of 3 inches, maximum of 7 inches) and 2060 (minimum of 9 inches, maximum of 24 inches) provides provides planning consistency with other sea level rise modeling efforts performed for Monroe County and other counties participating in the SEFRCC. The minimum SEFRCC sea level rise rate equals approximately 0.58 meters by 2100. The maximum SEFRCC sea level rise rate equals approximately 1.5 meters by 2100. Base elevation and slope data for the analysis were derived from the statewide Florida LIDAR Digitial elevation model (http://www.fgdl.org/metadata/fgdl_html/flidar_mosaic_ft.htm). Land cover categories for the analyses were originally derived from the 2010 Florida Cooperative Land Cover Map (http://fnai.org/LandCover.cfm). Environmental and hydrologic variable inputs for these SLAMM runs were obtained from Brian Beneke of Florida Fish and Wildlife Conservation Commission, and are described in detail by (Glazer 2013). SLAMM 6.02 runs were performed by Jason Evans, Stetson University. Mosaic processing, geodatabase creation, and online interfaces were developed by Kathleen Freeman of the Nature Conservancy. Base elevation and slope data for the analysis were derived from the statewide Florida LIDAR Digitial elevation model (http://www.fgdl.org/metadata/fgdl_html/flidar_mosaic_ft.htm). Land cover categories for the analyses were originally derived from the 2010 Florida Cooperative Land Cover Map (http://fnai.org/LandCover.cfm). Environmental and hydrologic variable inputs for these SLAMM runs were obtained from Brian Beneke of Florida Fish and Wildlife Conservation Commission, and are described in detail by (Glazer 2013). SLAMM 6.02 runs were performed by Jason Evans, Stetson University. Mosaic processing, geodatabase creation, and online interfaces were developed by Kathleen Freeman of the Nature Conservancy. ReferencesGlazer, R. 2013. Alternative futures under climate change for the Florida Key's benthic and coral systems. Final Report - State Wildlife Grant FWC 6242. Florida Fish and Wildlife Conservation Commission: Marathon, FL. Online at: http://www.car-spaw-rac.org/IMG/pdf/Final_Report-_Glazer_-_KeysMAP-1.pdfWarren Pinnacle, Inc.. 2014. Sea Level Affecting Marshes Model. http://www.warrenpinnacle.com/prof/SLAMM/</abstract>
+      <purpose>This geodatabase contains habitat change results for scenario runs of the Sea Level Affecting Marshes Model (SLAMM) for the Florida Keys island chain within Monroe County, Florida from 2020-2060. The model runs were developed using sea level rise curves as defined by the Southeast Florida Regional Climate Compact in conjunction with land cover, elevation, and slope data files provided by the Florida Fish and Wildlife Conservation Commission. The specific purpose of these datasets is to assist Monroe County in efforts to incorporate minimum and maximum sea level rise scenarios for the years 2030 and 2060, as adopted by the four counties of the Southeast Florida Regional Climate Compact, into near-term and long-term land use and habitat conservation planning.</purpose>
+    </descript>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>sea level rise; SLAMM; Monroe County</themekey>
+        <themekey>Florida; habitat change; Southeast Florida Regional Climate  Compact; climate change</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <datacred>Jason M. Evans, Department of Environmental Science and Studies, Stetson University;
+Kathleen Freeman, The Nature Conservancy;
+Brian Beneke, Florida Fish and Wildlife Conservation Commission;
+Monroe County, Florida Sustainabilility Program</datacred>
+  </idinfo>
+  <metainfo>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+</metadata>

@@ -1,0 +1,289 @@
+<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Broward / David Stout, Environmental Planning and Community Resilience Division, Broward County Government</origin>
+				<pubdate>20150223</pubdate>
+				<title>ShoreProtectionProjects</title>
+				<edition>First Edition</edition>
+				<geoform>map</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data contains 62 polygons showing the location of beach nourishment, dune restoration, coastal structures, sand bypassing and sand backpassing projects in Palm Beach, Broward, and Miami-Dade Counties.</abstract>
+			<purpose>This feature class was created to show the locations of the large-scale shoreline protection projects along the Atlantic Ocean shoreline in Palm Beach, Broward, and Miami-Dade Counties.  These data were developed by the Broward County Environmental Planning Community Resilience Division and the Shoreline Resilience Working Group as a planning tool to identify potential sites to construct new dune restoration projects. This feature class is to be used with the CoastalDunes2013 featue class for planning purpuses only.
+</purpose>
+		</descript>
+		<timeperd>
+			<timeinfo>
+				<rngdates>
+					<begdate>20150223</begdate>
+					<enddate>20150223</enddate>
+				</rngdates>
+			</timeinfo>
+			<current>Mapping work was finalized in February 2015</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-80.158877</westbc>
+				<eastbc>-80.030916</eastbc>
+				<northbc>26.968170</northbc>
+				<southbc>25.665634</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Coastal Resilisency, Shoreline Resilsency, Living Shorelines, Shore Protection Projects</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>environment</themekey>
+				<themekey>oceans</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Southeast Florida, Palm Beach County, Broward County, Miami-Dade County</placekey>
+			</place>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Broward County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Planning and Community Resilience Division </cntorg>
+					<cntper>Broward County / David Stout</cntper>
+				</cntorgp>
+				<cntpos>Broward County Government</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>115 S Andrews Ave, Room 329H</address>
+					<city>Fort Lauderdale</city>
+					<state>FL</state>
+					<postal>33301</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>954-519-1452</cntvoice>
+				<cntfax>954-519-1496</cntfax>
+				<cntemail>dstout@broward.org</cntemail>
+				<hours>M - F 8:00 am to 4:30 pm Eastern Standard Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>David Stout, Aneese Williams</datacred>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>62</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>sefl_ShoreProtectionProjects</enttypl>
+				<enttypd>Large-scale Shore Protectis in Palm Beach, Broward, and Miami-Dade Counties.</enttypd>
+				<enttypds>Broward County</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Project</attrlabl>
+				<attrdef>Title or name of the Shore Protection Project.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Type</attrlabl>
+				<attrdef>Type of Shore Protection Project.  5 types were identified: Beach Nourishment, Dune Restoration, Structures, Bypassing and Backpassing.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Label</attrlabl>
+				<attrdef>Lable identifer for  map output and printing. The Label gives the location and type of project.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PermitNo</attrlabl>
+				<attrdef>Florida Department of Environmenatal Protection or U.S. Army Corps of Engineers Permit Number.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>InstallYear</attrlabl>
+				<attrdef>Date of project construction.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>SedimentSource</attrlabl>
+				<attrdef>Origin of sand source for Beach Renourishment  and Dune Restoration projects</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>FillVolumeYd3</attrlabl>
+				<attrdef>Volume of fill placed for the Beach Nourishment projects, This information came from permit appications and reports.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>OwnerLastName</attrlabl>
+				<attrdef>Project owners name.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>OwnerAddress</attrlabl>
+				<attrdef>Project owners address.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>BuiltBy</attrlabl>
+				<attrdef>Entity that was responsible for building the project.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Cost</attrlabl>
+				<attrdef>Project cost.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>InstallPlant</attrlabl>
+				<attrdef>Identifies whether  dune plants were installed as part of the project design.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PlantType1</attrlabl>
+				<attrdef>Common names of plants installed.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PlantType2</attrlabl>
+				<attrdef>Common names of plants installed.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PlantType3</attrlabl>
+				<attrdef>Common names of plants installed.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>PlantType4</attrlabl>
+				<attrdef>Common names of plants installed.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Notes1</attrlabl>
+				<attrdef>Originators comments.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Notes2</attrlabl>
+				<attrdef>Originators comments.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>R_mon_North</attrlabl>
+				<attrdef>The Florida Department of Environmental Protection Control Monument at the northern limits of the project.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>R_Mon_South</attrlabl>
+				<attrdef>The Florida Department of Environmental Protection Control Monument at the southern limits of the project.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>County</attrlabl>
+				<attrdef>County where the project is loccated.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20150319</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Planning and Community Resilience Division, Broward County Government</cntorg>
+					<cntper>David Stout</cntper>
+				</cntorgp>
+				<cntpos>Natural Recourses Specialist II</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>115 S Andrews, Room 329H</address>
+					<city>Fort Lauderdale</city>
+					<state>FL</state>
+					<postal>33301</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>954-519-1452</cntvoice>
+				<cntfax>954-519-1496</cntfax>
+				<cntemail>dstout@broward.org</cntemail>
+				<hours>8:00 AM - 4:30 PM, Eastern Standard Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metuc>Broward County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</metuc>
+	</metainfo>
+	<Esri><CreaDate>20150319</CreaDate><CreaTime>12142200</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\TERMINAL\D\temp\CR_FL_xml\sefl_ShoreProtectionProjects</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\temp\CR_FL\MapService_Shoreline_Resilience\sefl_ShoreProtectionProjects" dest="\\TERMINAL\D\temp\CR_FL_xml\sefl_ShoreProtectionProjects" date="20150319" time="12142200"></copy></copyHistory></DataProperties></Esri></metadata>

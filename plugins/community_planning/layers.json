@@ -1,0 +1,38 @@
+[
+    {
+        "agsSource": {
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Florida",
+            "folderTitle": "Southeast Florida",
+            "folders": [
+                {
+					"name": "",
+                    "services": [
+						{ "name": "Southeast_Florida", "type":"dynamic", "displayName":"Monroe County Sustainability Action Plan", "description":"Simulated future road flooding and mangrove habitat loss", "showLayers": [
+								{"id":35, "parentLayerId":-1 },
+								{"id":36, "parentLayerId":35 },
+								{"id":37, "parentLayerId":35 },
+								{"id":38, "parentLayerId":35 },
+								{"id":39, "parentLayerId":35 },
+								{"id":40, "parentLayerId":-1 },
+								{"id":41, "parentLayerId":-1 },
+								{"id":42, "parentLayerId":41 },
+								{"id":43, "parentLayerId":41},
+								{"id":44, "parentLayerId":41 },
+								{"id":45, "parentLayerId":41 },
+								{"id":46, "parentLayerId":41 },
+								{"id":47, "parentLayerId":41 },
+								{"id":48, "parentLayerId":-1 },
+								{"id":49, "parentLayerId":48 },
+								{"id":50, "parentLayerId":48 },
+								{"id":51, "parentLayerId":48 },
+								{"id":52, "parentLayerId":48 },
+								{"id":53, "parentLayerId":48 },
+								{"id":54, "parentLayerId":48 }
+							]
+						}	
+					]
+				}
+			]
+        }
+	}
+]

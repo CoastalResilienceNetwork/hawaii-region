@@ -1,0 +1,222 @@
+﻿<?xml-stylesheet type="text/xsl" href="./FGDC_Plus.xsl"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>Broward County/David Stout, Environmental Planning and Community Resilience Division, Broward County Government</origin>
+				<pubdate>20150223</pubdate>
+				<title>sefl_CoastalDunes2013</title>
+				<edition>First Editon</edition>
+				<geoform>vector digital data</geoform>
+			</citeinfo>
+		</citation>
+		<descript>
+			<abstract>This data contains 2767 polygons showing vegetated areas in Palm Beach, Broward, and Miami-Dade Counties in the year 2013. The features were digitized from 2013 digital ortho-photography as a scale of 1:500 feet. The 2013 Broward County and Palm Beach County photography is 0.5 foot resolution and Miami-Dade 2013 aerial photography is 0.25 foot resolution in the urban corridor and 0.5 foot resolution outside of the urban corridor.Source of Aerials: Broward - Broward County Property Appraiser/Broward County GIS. Palm Beach - Palm Beach County. Miami-Dade - Miami-Dade County Information Technology Department.</abstract>
+			<purpose>This feature class was created to show the locations of vegetated areas along the Atlantic Ocean shoreline in Palm Beach, Broward, and Miami-Dade Counties.  These data were developed by Broward County Environmental Planning Community Resilience Division and the Shoreline Resilience Working Group as a planning tool to identify potential sites to construct new dune restoration projects.</purpose>
+		</descript>
+		<status>
+			<progress>Complete</progress>
+			<update>None planned</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-80.165297</westbc>
+				<eastbc>-80.031600</eastbc>
+				<northbc>26.971032</northbc>
+				<southbc>25.665415</southbc>
+			</bounding>
+		</spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Coastal Dune Vegetation</themekey>
+				<themekey>Coastal Resiliency</themekey>
+				<themekey>Shoreline Resiliency</themekey>
+				<themekey>Living Shorelines</themekey>
+				<themekey>Dune Restoration</themekey>
+			</theme>
+			<theme>
+				<themekt>ISO 19115 Topic Categories</themekt>
+				<themekey>environment</themekey>
+				<themekey>oceans</themekey>
+				<themekey>biota</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Southeast Florida, Palm Beach County, Broward County, Miami-Dade County</placekey>
+			</place>
+			<temporal>
+				<tempkt>None</tempkt>
+				<tempkey>2013</tempkey>
+			</temporal>
+		</keywords>
+		<accconst>None</accconst>
+		<useconst>Broward County does not represent or warrant that the GIS Data or the data documentation are error-free, complete, current, or accurate. You are responsible for any consequences resulting from your use of the GIS Data or your reliance on the GIS Data. You should consult the data documentation for this particular GIS Data to determine the limitations of the GIS Data and the precision with which the GIS Data may depict distance, direction, location, or other geographic features. If you transmit or provide the GIS Data (or any portion of it) to another user, the GIS Data must include a copy of this disclaimer.</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Environmental Planning and Community Resilience Division</cntorg>
+					<cntper>Broward County/David Stout</cntper>
+				</cntorgp>
+				<cntpos>Broward County Government</cntpos>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>115 S Andrews, Room 329H</address>
+					<city>Fort Lauderdale</city>
+					<state>FL</state>
+					<postal>33301</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>954-519-1452</cntvoice>
+				<cntfax>954-519-1496</cntfax>
+				<cntemail>dstout@broward.org</cntemail>
+				<hours>M-F 8:00 am to 4:30 pm Eastern Standard Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<datacred>Aneese Williams
+David Stout
+David Rubin
+Diana Mitsova
+Katie Lelis</datacred>
+		<native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</native>
+	</idinfo>
+	<spdoinfo>
+		<direct>Vector</direct>
+		<ptvctinf>
+			<sdtsterm>
+				<sdtstype>GT-polygon composed of chains</sdtstype>
+				<ptvctcnt>2767</ptvctcnt>
+			</sdtsterm>
+		</ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<mapproj>
+					<mapprojn>WGS 1984 Web Mercator Auxiliary Sphere</mapprojn>
+					<mapprojp>
+						<otherprj>PROJCS["WGS_1984_Web_Mercator_Auxiliary_Sphere",GEOGCS["GCS_WGS_1984",DATUM["D_WGS_1984",SPHEROID["WGS_1984",6378137.0,298.257223563]],PRIMEM["Greenwich",0.0],UNIT["Degree",0.0174532925199433]],PROJECTION["Mercator_Auxiliary_Sphere"],PARAMETER["False_Easting",0.0],PARAMETER["False_Northing",0.0],PARAMETER["Central_Meridian",0.0],PARAMETER["Standard_Parallel_1",0.0],PARAMETER["Auxiliary_Sphere_Type",0.0],UNIT["Meter",1.0],AUTHORITY["EPSG",3857]]</otherprj>
+					</mapprojp>
+				</mapproj>
+				<planci>
+					<plance>coordinate pair</plance>
+					<coordrep>
+						<absres>0.0001</absres>
+						<ordres>0.0001</ordres>
+					</coordrep>
+					<plandu>meter</plandu>
+				</planci>
+			</planar>
+			<geodetic>
+				<horizdn>D WGS 1984</horizdn>
+				<ellips>WGS 1984</ellips>
+				<semiaxis>6378137.0</semiaxis>
+				<denflat>298.257223563</denflat>
+			</geodetic>
+		</horizsys>
+	</spref>
+	<eainfo>
+		<detailed>
+			<enttyp>
+				<enttypl>sefl_CoastalDunes2013</enttypl>
+				<enttypd>Vegetated dunes in Palm Beach, Broward, and Miami-Dade Counties in 2013</enttypd>
+				<enttypds>Broward County</enttypds>
+			</enttyp>
+			<attr>
+				<attrlabl>OBJECTID</attrlabl>
+				<attrdef>Internal feature number.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Sequential unique whole numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>acres</attrlabl>
+				<attrdef>areas in acres </attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>County</attrlabl>
+				<attrdef>County where the project is located.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>AerialsYear</attrlabl>
+				<attrdef>Year of the aerials used to digitize dunes features.</attrdef>
+				<attrdefs>Palm Beach County, Broward County, Miami-Dade County</attrdefs>
+				<attrmfrq>011</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>Feature</attrlabl>
+				<attrdef>Type of feature digitized.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+				<attrmfrq>011</attrmfrq>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Length</attrlabl>
+				<attrdef>Length of feature in internal units.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>Shape_Area</attrlabl>
+				<attrdef>Area of feature in internal units squared.</attrdef>
+				<attrdefs>Esri</attrdefs>
+				<attrdomv>
+					<udom>Positive real numbers that are automatically generated.</udom>
+				</attrdomv>
+			</attr>
+			<attr>
+				<attrlabl>MeanElevFtNAVD</attrlabl>
+				<attrdef>Mean elevation of dune feature in feet NAVD. Elevation was determined from 2007 regional LiDAR survey and calculated using Zonal Statistics as Table Tool.  Null values indicate areas where LiDAR data did not intersect features or where features were smaller than LiDAR grid size.</attrdef>
+				<attrdefs>Broward County</attrdefs>
+			</attr>
+			<attr>
+				<attrlabl>BeachWidth</attrlabl>
+				<attrdef>Estimated beach width in feet from each dune feature to the shoreline. The shoreline position was estimated to be the water’s edge visible on the ortho-photography. The distance was calculated using the Near Analysis Tool.  Null values indicate either features that were digitized along inlet shorelines or features that intersect the shoreline position indicating that no dry beach was present. </attrdef>
+				<attrdefs>Broward County</attrdefs>
+				<attrmfrq>011</attrmfrq>
+			</attr>
+		</detailed>
+	</eainfo>
+	<metainfo>
+		<metd>20150319</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Broward County Environmental Planning and Community Resilience Division</cntorg>
+					<cntper>Broward County / David Stout</cntper>
+				</cntorgp>
+				<cntaddr>
+					<addrtype>physical</addrtype>
+					<address>115 S Andrews Ave, Room 329H</address>
+					<city>Fort Lauderdale</city>
+					<state>FL</state>
+					<postal>33301</postal>
+					<country>US</country>
+				</cntaddr>
+				<cntvoice>954-519-1452</cntvoice>
+				<cntfax>954-519-1496</cntfax>
+				<cntemail>dstout@broward.org</cntemail>
+				<hours>M-F 8:00 am to 4:30 pm Eastern Standard Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+		<metstdv>FGDC-STD-001-1998</metstdv>
+		<mettc>local time</mettc>
+		<metuc>To be used by the Shoreline Resilience Working Group for planning purposes only.</metuc>
+		<metsi>
+			<metsc>Unclassified</metsc>
+		</metsi>
+	</metainfo>
+	<Esri><CreaDate>20150319</CreaDate><CreaTime>12142200</CreaTime><ArcGISstyle>FGDC CSDGM Metadata</ArcGISstyle><SyncOnce>TRUE</SyncOnce><DataProperties><itemProps><itemLocation><linkage Sync="TRUE">file://\\TERMINAL\D\temp\CR_FL_xml\sefl_CoastalDunes2013</linkage><protocol Sync="TRUE">Local Area Network</protocol></itemLocation></itemProps><copyHistory><copy source="D:\temp\CR_FL\MapService_Shoreline_Resilience\sefl_CoastalDunes2013" dest="\\TERMINAL\D\temp\CR_FL_xml\sefl_CoastalDunes2013" date="20150319" time="12142200"></copy></copyHistory></DataProperties></Esri></metadata>
