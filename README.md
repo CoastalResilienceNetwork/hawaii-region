@@ -1,4 +1,4 @@
-ventura-region
+Hawaii-region
 ==============
 
-Ventura, CA Region site for Coastal Resilience
+Hawaii site for Coastal Resilience
