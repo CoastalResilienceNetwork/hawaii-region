@@ -1,8 +1,7 @@
 {
     "plugins": [
 	{
-      "repo": "multiSelect",
-      "name": "floodSLR"
+      "repo": "multiSelect"
     }
     ]
 }
