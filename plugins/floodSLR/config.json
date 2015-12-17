@@ -3,18 +3,18 @@
 	"pluginHeight": 450,
 	"regions": [
 		{
-			"name": "Southeast Florida",
+			"name": "Big Island, Hawaii",
             "extent": {
-                "xmin": -9112975.621361278,
-                "ymin": 2818940.4851079737,
-                "xmax": -8907895.621361278,
-                "ymax": 3120320.4851079737,
+                "xmin": -17372785.819200,
+                "ymin": 2223248.803000,
+                "xmax": -17346036.845300,
+                "ymax": 2278384.602200,
                 "spatialReference": {
                     "wkid": 102100,
                     "latestWkid": 3857
                 }
             },
-			"methods": {"title": "Methods", "url": "methods/Inundation_Mapping_Methodology_Appendix_B.pdf"},
+			"methods": {""},
 			"tabs" : [
 				{
 					"name": "NA",
