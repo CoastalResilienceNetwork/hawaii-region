@@ -52,8 +52,6 @@
     ],
     "pluginOrder": [
         "layer_selector",
-		    "community_planning",
-		    "flood_slr",
         "zoom_to",
         "measure",
         "legend_display",
