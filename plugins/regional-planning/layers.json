@@ -1,6 +1,6 @@
 [
     {
-        "displayName": "The Big Island",
+        "displayName": "The Big Island - EESLR only",
         "server": {
             "type": "ags",
             "layerType": "dynamic",
@@ -68,6 +68,44 @@
             {
                 "name": "2080 High",
                 "displayName": "2080 High",
+                "includeAllLayers": true
+            }
+        ]
+    },
+    {
+        "displayName": "The Big Island",
+        "server": {
+            "type": "ags",
+            "layerType": "dynamic",
+            "url": "http://dev.services2.coastalresilience.org/arcgis/rest/services/Hawaii",
+            "name": "Hawaii",
+            "reportGpUrl": "http://dev.services2.coastalresilience.org/arcgis/rest/services/DrawAndReport/getDrawAndReportDataMultiUnits/GPServer/getDrawAndReportDataMultiUnits",
+            "reportDbPath": "Hawaii.gdb" 
+        },
+        "includeLayers": [
+            {
+                "name": "Boundaries",
+                "displayName": "Boundaries",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Land Based Source Pollutants",
+                "displayName": "Land Based Source Pollutants",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Marine Targets - Final",
+                "displayName": "Marine Targets",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Land Use and Imagery",
+                "displayName": "Land Use and Imagery",
+                "includeAllLayers": true
+            },
+            {
+                "name": "Physical Habitat Structure",
+                "displayName": "Physical Habitat Structure",
                 "includeAllLayers": true
             }
         ]
