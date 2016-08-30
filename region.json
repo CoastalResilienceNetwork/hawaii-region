@@ -52,6 +52,7 @@
     ],
     "pluginOrder": [
         "regional-planning",
+        "ecological-effects-slc",
         "zoom_to",
         "measure",
         "legend_display",
