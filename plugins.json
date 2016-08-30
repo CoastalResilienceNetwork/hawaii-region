@@ -3,6 +3,10 @@
       {
           "repo": "regional-planning",
           "name": "regional-planning"
+      },
+      {
+          "repo": "ecological-effects-slc",
+          "name": "ecological-effects-slc"
       }
   ]
 }
