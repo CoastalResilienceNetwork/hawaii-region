@@ -1,8 +1,12 @@
 {
   "plugins": [
       {
-          "repo": "map-tree",
-          "name": "layer_selector"
+          "repo": "regional-planning",
+          "name": "regional-planning"
+      },
+      {
+          "repo": "ecological-effects-slc",
+          "name": "ecological-effects-slc"
       }
   ]
 }
