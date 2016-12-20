@@ -107,6 +107,11 @@
                 "name": "Physical Habitat Structure",
                 "displayName": "Physical Habitat Structure",
                 "includeAllLayers": true
+            },
+            {
+                "name": "Metrics Review",
+                "displayName": "Metrics Review",
+                "includeAllLayers": true
             }
         ]
     }
