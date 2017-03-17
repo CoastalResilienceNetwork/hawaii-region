@@ -2,7 +2,8 @@
   "plugins": [
       {
           "repo": "regional-planning",
-          "name": "regional-planning"
+          "name": "regional-planning",
+          "ver": "ae93c8c"
       },
       {
           "repo": "ecological-effects-slc",
