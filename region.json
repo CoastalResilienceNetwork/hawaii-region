@@ -55,11 +55,11 @@
    "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],	
     "launchpad": {
             "title": "Big Island Hawaii",
-            "description": "<p>Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards</p>",
+            "description": "<p>The purpose of this application is to help prioritize and justify action to ensure ecological health, with anchialine pools being important indicators. Also known as loko wai opae, they are host to a unique ecology and tied to traditional sustainable fishing methods, anchialine pools are windows into the unseen world beneath the surface of Hawai‘i Island.</p>",
             "plugins": [
                 {
                     "title": "<img src='img/ecological_effects_slc.png' hspace=10>Ecological Effects of Sea Level Change",
-                    "description": "Brief text here",
+                    "description": "Sea level change will impact Hawai‘i’s coast. Understanding sea level impacts now enables us to prioritize actions to ensure healthy coastal communities.",
                     "pluginName": "ecological-effects-slc"
                 }
             ],
