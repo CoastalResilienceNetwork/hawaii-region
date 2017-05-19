@@ -1,10 +1,9 @@
 {
     "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://coastalresilience.org/" },
-    "titleDetail": { "text": "Hawaii", "url": "http://coastalresilience.org/project-areas/" },
+    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/hawaii" },
+    "titleDetail": { "text": "Hawaii", "url": "" },
 	"headerLinks": [
-	    { "text": "TOUR", "url": "javascript:;", "elementId": "help-overlay-start"},
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
@@ -28,19 +27,19 @@
         20.22612
     ],
     "basemaps": [
+        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
         { "name": "Imagery"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer" },
         { "name": "Topographic"        , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Topo_Map/MapServer" },
         { "name": "Basic"              , "url": "http://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer" },
         { "name": "Basic Dark Gray"    , "url": "http://server.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"},
         { "name": "National Geographic", "url": "http://server.arcgisonline.com/ArcGIS/rest/services/NatGeo_World_Map/MapServer" },
         { "name": "Ocean"              , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/Ocean_Basemap/MapServer" },
-        { "name": "Physical"           , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Physical_Map/MapServer" },
         { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
-        { "name": "Streets"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer" },
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginOrder": [
-		"regional-planning"
+		"ecological-effects-slc",
+        "regional-planning"
     ],
     "print": {
        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
@@ -53,7 +52,30 @@
 		"tertiary": "#333333",
 		"active": "#0096D6"
     },
-   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"]	
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],	
+    "launchpad": {
+            "title": "Big Island Hawaii",
+            "description": "<p>Coastal Resilience is a decision support tool that provides local, state and national planners a step-wise process to guide decisions to reduce the ecological and socio-economic risks of coastal hazards</p>",
+            "plugins": [
+                {
+                    "title": "<img src='img/ecological_effects_slc.png' hspace=10>Ecological Effects of Sea Level Change",
+                    "description": "Brief text here",
+                    "pluginName": "ecological-effects-slc"
+                }
+            ],
+            "partners": [
+                {
+                    "logoPath": "img/TNCLogoPrimary_RGB.png",
+                    "link": "http://nature.org",
+                    "title": "The Nature Conservancy"
+                },
+                {
+                    "logoPath": "img/NOAA_logo_color_broadcast2.jpg",
+                    "link": "",
+                    "title": "NOAA"
+            }
+        ]
+    }
 }
 
 
