@@ -2,12 +2,11 @@
   "plugins": [
       {
           "repo": "regional-planning",
-          "name": "regional-planning",
-          "ver": "ae93c8c"
+          "name": "regional-planning"
       },
       {
           "repo": "ecological-effects-slc",
-          "name": "eeslr"
+          "name": "ecological-effects-slc"
       }
   ]
 }
