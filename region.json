@@ -3,7 +3,7 @@
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
     "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/hawaii" },
     "titleDetail": { "text": "Hawaii", "url": "" },
-	"singlePluginMode": {
+    "singlePluginMode": {
         "active": true,
         "pluginFolderName": "ecological-effects-slc"
     },
@@ -42,8 +42,7 @@
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
     "pluginFolders": [
-        "plugins",
-        "sample_plugins"
+        "plugins"
     ],
     "pluginOrder": [
 	    "ecological-effects-slc"
