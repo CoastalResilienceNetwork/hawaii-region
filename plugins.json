@@ -1,8 +1,8 @@
 {
   "plugins": [
       {
-          "repo": "marsh-explorer",
-          "name": "marsh-explorer"
+          "repo": "ecological-effects-slc",
+          "name": "ecological-effects-slc"
       }
   ]
 }
