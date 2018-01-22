@@ -1,9 +1,13 @@
 {
-    "googleAnalyticsPropertyId": "7401895-31",
+    "googleAnalyticsPropertyId": "7401895-16",
     "googleUrlShortenerApiKey": "AIzaSyDO_xBd3griGKuhlYBvv7jVN4Mt58Gl4iw",
-    "titleMain": { "text": "Coastal Resilience", "url": "http://maps.coastalresilience.org/hawaii" },
+    "titleMain": { "text": "Ecosystem Effects of Sea Level Change", "url": "http://maps.coastalresilience.org/hawaii" },
     "titleDetail": { "text": "Hawaii", "url": "" },
-	"headerLinks": [
+    "singlePluginMode": {
+        "active": true,
+        "pluginFolderName": "ecological-effects-slc"
+    },
+    "headerLinks": [
         { "text": "The Nature Conservancy", "url": "http://nature.org/marine/" },
         { "text": "Legal Disclosure", "url": "http://coastalresilience.org/terms-of-use/" }
     ],
@@ -37,9 +41,11 @@
         { "name": "Shaded Relief"      , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Shaded_Relief/MapServer" },
         { "name": "Terrain"            , "url": "http://server.arcgisonline.com/ArcGIS/rest/services/World_Terrain_Base/MapServer" }
     ],
+    "pluginFolders": [
+        "plugins"
+    ],
     "pluginOrder": [
-	    "ecological-effects-slc",
-        "regional-planning"
+	    "ecological-effects-slc"
     ],
     "print": {
        "printServerUrl": "http://services.coastalresilience.org:6080/arcgis/rest/services/Utilities/PrintingTools/GPServer/Export%20Web%20Map%20Task",
@@ -52,30 +58,7 @@
 		"tertiary": "#333333",
 		"active": "#0096D6"
     },
-   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],	
-    "launchpad": {
-            "title": "Big Island Hawaii",
-            "description": "<p>The purpose of this application is to help prioritize and justify action to ensure ecological health, with anchialine pools being important indicators. Also known as loko wai opae, they are host to a unique ecology and tied to traditional sustainable fishing methods, anchialine pools are windows into the unseen world beneath the surface of Hawai‘i Island.</p>",
-            "plugins": [
-                {
-                    "title": "<img src='img/ecological_effects_slc.png' hspace=10>Ecological Effects of Sea Level Change",
-                    "description": "Sea level change will impact Hawai‘i’s coast. Understanding sea level impacts now enables us to prioritize actions to ensure healthy coastal communities.",
-                    "pluginName": "ecological-effects-slc"
-                }
-            ],
-            "partners": [
-                {
-                    "logoPath": "img/TNCLogoPrimary_RGB.png",
-                    "link": "http://nature.org",
-                    "title": "The Nature Conservancy"
-                },
-                {
-                    "logoPath": "img/NOAA_logo_color_broadcast2.jpg",
-                    "link": "",
-                    "title": "NOAA"
-            }
-        ]
-    }
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"]
 }
 
 
