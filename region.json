@@ -58,7 +58,8 @@
 		"tertiary": "#333333",
 		"active": "#0096D6"
     },
-   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"]
+   "identifyBlacklist": ["OBJECTID", "OBJECTID_1", "SHAPE", "Shape", "shape_Length", "shape_Area", "NumScen"],
+   "identifyEnabled": true
 }
 
 
